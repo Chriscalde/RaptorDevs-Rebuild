@@ -21,5 +21,15 @@ export default {
         lang: 'Language',
         es: 'Spanish',
         en: 'English'
+    },
+    services: {
+        hero: {
+            one: 'Our Services',
+            two: 'We offer a variety of services'
+        },
+        sectionOne: {
+            firsth: 'None',
+            firstp: 'None'
+        }
     }
 }

@@ -6,8 +6,10 @@
         <div class="grid grid-cols-2 gap-8 p-10">
           <div class="left-hero justify-center items-center mx-auto">
             <h1 class="text-6xl font-extrabold text-white">{{$t('hero.h1')}}</h1>
-            <p class="my-4 text-2xl">{{$t('hero.p')}}</p>
-            <a id="learn-btn" class="justify-center items-center text-center items-center py-4 px-2 mt-12 text-white text-xl rounded-xl align-middle" href="">{{$t('hero.button')}} <i href="" class="bx bx-chevron-right align-middle text-4xl"></i></a>
+            <p class="my-8 text-2xl">{{$t('hero.p')}}</p>
+            <div class="text-center">
+            <a id="learn-btn" class="justify-center items-center text-center items-center py-4 px-6 mt-12 text-white text-xl rounded-xl align-middle" href="">{{$t('hero.button')}} <i href="" class="bx bx-chevron-right align-middle text-4xl"></i></a>
+            </div>
           </div>
           <div class="right-hero">
             <img src="../assets/img/mb.png" alt="macbook" rel="preload">
@@ -24,20 +26,20 @@
   </div>
   <section id="footer-top" class="bg-white">
     <div class="grid grid-cols-4 gap-8 p-24">
-      <div>
+      <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.contact')}}</h1>
-        <p>+1 385 234 97 00</p>
+        <a href="tel:+13852349700">+1 385 234 97 00</a>
         <p>12542 S 1300 W</p>
         <p>Riverton, Utah</p>
       </div>
-      <div>
+      <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.social')}}</h1>
-        <p>Facebook</p>
-        <p>Instagram</p>
+        <a href="https://www.facebook.com/Raptordevs" target="_blank">Facebook</a>
+        <a href="https://www.intagram.com/raptordevs/">Instagram</a>
       </div>
-      <div>
+      <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.lang')}}</h1>
-        <a href=""><nuxt-link :to="switchLocalePath('es')">{{$t('ft.es')}}</nuxt-link></a><br>
+        <a href=""><nuxt-link :to="switchLocalePath('es')">{{$t('ft.es')}}</nuxt-link></a>
         <a href=""><nuxt-link :to="switchLocalePath('en')">{{$t('ft.en')}}</nuxt-link></a>
       </div>
       <div>
@@ -55,7 +57,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
