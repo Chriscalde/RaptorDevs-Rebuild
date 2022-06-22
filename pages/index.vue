@@ -2,8 +2,8 @@
   <div class="background-main">
     <Header class="top-0 w-full"></Header>
     <div id="main">
-      <section id="hero" class="my-16 mx-24">
-        <div class="grid grid-cols-2 gap-8 p-10">
+      <section id="hero" class="my-16 md:mx-24">
+        <div class="grid md:grid-cols-2 gap-8 p-10">
           <div class="left-hero justify-center items-center mx-auto">
             <h1 class="text-6xl font-extrabold text-white">{{$t('hero.h1')}}</h1>
             <p class="my-8 text-2xl">{{$t('hero.p')}}</p>
@@ -24,35 +24,15 @@
         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
     </svg>
   </div>
-  <section id="footer-top" class="bg-white">
-    <div class="grid grid-cols-4 gap-8 p-24">
-      <div class="flex flex-col">
-        <h1 class="text-xl font-bold">{{$t('ft.contact')}}</h1>
-        <a href="tel:+13852349700">+1 385 234 97 00</a>
-        <p>12542 S 1300 W</p>
-        <p>Riverton, Utah</p>
-      </div>
-      <div class="flex flex-col">
-        <h1 class="text-xl font-bold">{{$t('ft.social')}}</h1>
-        <a href="https://www.facebook.com/Raptordevs" target="_blank">Facebook</a>
-        <a href="https://www.intagram.com/raptordevs/">Instagram</a>
-      </div>
-      <div class="flex flex-col">
-        <h1 class="text-xl font-bold">{{$t('ft.lang')}}</h1>
-        <a href=""><nuxt-link :to="switchLocalePath('es')">{{$t('ft.es')}}</nuxt-link></a>
-        <a href=""><nuxt-link :to="switchLocalePath('en')">{{$t('ft.en')}}</nuxt-link></a>
-      </div>
-      <div>
-        <img src="../assets/img/rd-logo.png" alt="logo">
-      </div>
-    </div>
-  </section>
+    <footer-top/>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
+import FooterTop from '../components/FooterTop.vue'
 export default {
+  components: { FooterTop },
   name: 'IndexPage',
 }
 </script>
