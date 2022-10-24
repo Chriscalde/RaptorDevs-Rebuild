@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "boxicons": "^2.1.2",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
@@ -18,6 +19,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.4.4",
     "vue-svg-loader": "^0.16.0",

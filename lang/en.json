@@ -1,0 +1,74 @@
+{
+  "Hello": "hello",
+  "about": {
+    "info": "We are a web development company. Providing our clients with the best technological solutions is what we do.",
+    "mission": "Our Mission",
+    "more": "Learn more about our company",
+    "mp": "To provide our clients with the best service available",
+    "us": "About Us",
+    "vision": "Our Vision",
+    "vp": "To be a recognized web development company",
+    "who": "Who we are"
+  },
+  "contact": {
+    "address": "Address",
+    "app": "Mobile Application",
+    "details": "Details",
+    "fn": "Full Name",
+    "form": "Contact Form",
+    "int": "What are you interested in?",
+    "mail": "Email",
+    "om": "Online Marketing",
+    "pc": "PC Repair",
+    "phone": "Phone",
+    "send": "Send",
+    "ts": "Tech Support",
+    "wd": "Web Design",
+    "web": "Website"
+  },
+  "ft": {
+    "contact": "Contact",
+    "en": "English",
+    "es": "Spanish",
+    "lang": "Language",
+    "social": "Social Media"
+  },
+  "hero": {
+    "button": "Learn more",
+    "h1": "Your new website, just a click away",
+    "p": "With Raptor Devs, we can make your dream website a reality"
+  },
+  "home": {
+    "apps": "Stop looking for an app for your business, we'll build it for you!",
+    "pc": "We also provide PC maintenance and repairs",
+    "web": "Custom user-friendly website for your business."
+  },
+  "index": {
+    "s1": "Web Design",
+    "s2": "Mobile Apps",
+    "s3": "PC Repair"
+  },
+  "nav": {
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home",
+    "services": "Services"
+  },
+  "pages": {
+    "contacts": "Contacts",
+    "home": "Home Page"
+  },
+  "services": {
+    "contact": "Contact Us!",
+    "cr": "Computer Repair Services",
+    "crp": "We also offer computer maintenance, software installation, repairs, and PC building",
+    "hero": {
+      "one": "Our Services",
+      "two": "We offer a variety of services"
+    },
+    "int": "Interested in any of our services?",
+    "s1": "Mobile Apps",
+    "s2": "Website Design",
+    "s3": "Marketing Solutions"
+  }
+}

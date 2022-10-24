@@ -32,6 +32,7 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/tailwindcss
         '@nuxtjs/tailwindcss',
+        '@nuxt/image'
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
@@ -41,20 +42,23 @@ export default {
                     name: 'Español',
                     code: 'es',
                     iso: 'es-MX',
-                    file: 'es-MX.js'
+                    file: 'es.json'
                 },
                 {
                     name: 'English',
                     code: 'en',
                     iso: 'en-US',
-                    file: 'en-US.js'
+                    file: 'en.json'
                 }
             ],
             langDir: 'lang/',
             defaultLocale: 'en',
-        }]
+        }],
+        '@nuxt/image'
     ],
+    image:{
 
+    },
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {}
 }

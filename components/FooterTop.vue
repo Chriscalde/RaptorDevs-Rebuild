@@ -3,7 +3,8 @@
     <div class="grid md:grid-cols-4 gap-8 p-24">
       <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.contact')}}</h1>
-        <a href="tel:+13852349700">+1 385 234 97 00</a>
+        <a href="tel:+13852349700"> +1 385 234 97 00</a>
+        <a href="mailto:contact@raptordevs.com">contact@raptordevs.com</a>
         <p>12542 S 1300 W</p>
         <p>Riverton, Utah</p>
       </div>

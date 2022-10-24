@@ -17,18 +17,18 @@
             </div>
         </section>
         <section id="sect-two">
-            <div id="services-opts" class="md:mx-36 grid md:grid-cols-3 gap-8">
-                <div class="text-center p-8">
+            <div id="services-opts" class="md:mx-36 grid md:grid-cols-3 md:gap-8">
+                <div class="text-center md:p-8 p-2">
                     <i class="bx bx-devices text-2xl text-white rounded-full border-2 border-white p-4"></i>
-                        <h1 class="text-2xl text-white mt-4">MOBILE APPS</h1>
+                        <h1 class="text-2xl text-white mt-4">{{$t('services.s1')}}</h1>
                 </div>
-                <div class="text-center p-8">
+                <div class="text-center md:p-8">
                     <i class="bx bx-code-alt text-2xl text-white rounded-full border-2 border-white p-4"></i>
-                        <h1 class="text-2xl text-white mt-4">WEBSITE DESIGN</h1>
+                        <h1 class="text-2xl text-white mt-4">{{$t('services.s2')}}</h1>
                 </div>
-                <div class="text-center p-8">
+                <div class="text-center md:p-8 p-2">
                     <i class="bx bx-shopping-bag text-2xl text-white rounded-full border-2 border-white p-4"></i>
-                    <h1 class="text-2xl text-white mt-4">MARKETING SOLUTIONS</h1>
+                    <h1 class="text-2xl text-white mt-4">{{$t('services.s3')}}</h1>
                 </div>   
             </div>
         </section>
@@ -36,16 +36,16 @@
             <div id="services-rep" class="md:mx-36 grid lg:grid-cols-2">
                 <div><img src="../assets/img/nikolai-chernichenko-s6uS36SF91Y-unsplash.jpeg" alt="Image by Nikolai Chernichenko" class="img-repair w-full" ></div>
                 <div class="flex flex-col items-center justify-center text-center p-12">
-                    <h1 class="text-4xl repair-text">Computer Repair Services</h1>
-                    <p class="text-xl">We also offer computer maintenance, software installation, repairs, and PC building</p>
+                    <h1 class="text-4xl repair-text">{{$t('services.cr')}}</h1>
+                    <p class="text-xl">{{$t('services.crp')}}</p>
                 </div>
                 
             </div>
         </section>
         <section id="sect-four">
             <div id="services-con" class="p-14 text-center">
-                <h1 class="text-2xl text-white">Interested in any of our services?</h1>
-                <button class="text-xl text-white rounded border-2 border-white px-4 mt-4 hover:bg-white hover:text-black ">Contact Us!</button>
+                <h1 class="text-2xl text-white">{{$t('services.int')}}</h1>
+                <button class="text-xl text-white rounded border-2 border-white px-4 mt-4 hover:bg-white hover:text-black ">{{$t('services.contact')}}</button>
             </div>
         </section>
     </div>
@@ -82,6 +82,13 @@ export default {
 
 .wave .shape-fill {
     fill: #f4762d;
+}
+@media (max-width: 767px) {
+    .wave svg {
+        width: calc(100% + 1px);
+        height: 50px;
+        line-height: 0;
+    }
 }
 .background-main{
     background: #F74C06;

@@ -1,0 +1,74 @@
+{
+  "Hello": "hola",
+  "about": {
+    "info": "Somos una compañia de desarrollo web. Siempre tratamos de darle las mejores soluciones a nuestros clientes",
+    "mission": "Misión",
+    "more": "Aprende más sobre nuestra compañía",
+    "mp": "Dar el mejor servicio posible a nuestros clientes",
+    "us": "Sobre Nosotros",
+    "vision": "Visión",
+    "vp": "Ser una compañia de desarrollo web muy conocida",
+    "who": "Quienes somos"
+  },
+  "contact": {
+    "address": "Dirección",
+    "app": "Aplicación Móvil",
+    "details": "Detalles",
+    "fn": "Nombre Completo",
+    "form": "¡Contactanos!",
+    "int": "¿Qué servicio te interesa?",
+    "mail": "Correo Electrónico",
+    "om": "Marketing Digital",
+    "pc": "Reparación de PC",
+    "phone": "Número Telefónico",
+    "send": "Enviar",
+    "ts": "Soporte Tecnico",
+    "wd": "Diseño Web",
+    "web": "Sitio Web"
+  },
+  "ft": {
+    "contact": "Contacto",
+    "en": "Inglés",
+    "es": "Español",
+    "lang": "Idioma",
+    "social": "Redes Sociales"
+  },
+  "hero": {
+    "button": "Ver más",
+    "h1": "Tu nuevo sitio web, a un click de distancia",
+    "p": "Con Raptor Devs, puedes hacer tu página web una realidad"
+  },
+  "home": {
+    "apps": "Deja de buscar una app para tu negocio, nosotros la haremos para ti",
+    "pc": "Tambien contamos con el servicio de mantenimiento y reparación de computadoras",
+    "web": "Tu página web personalizada para tu negocio, totalmente amigable para tus clientes."
+  },
+  "index": {
+    "s1": "Diseño Web",
+    "s2": "Apps Móviles",
+    "s3": "Reparación de PCs"
+  },
+  "nav": {
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "home": "Inicio",
+    "services": "Servicios"
+  },
+  "pages": {
+    "contacts": "Contactos",
+    "home": "Pagina Principal"
+  },
+  "services": {
+    "contact": "¡Contactanos!",
+    "cr": "Reparación de Computadoras",
+    "crp": "Tambien ofrecemos reparación, mantenimiento e instalación de software para computadoras, así como tambien ensamblaje de computadoras personales  ",
+    "hero": {
+      "one": "Nuestros Servicios",
+      "two": "Ofrecemos una variedad de servicios"
+    },
+    "int": "¿Interesado en alguno de nuestros servicios?",
+    "s1": "Aplicaciones Móviles",
+    "s2": "Diseño Web",
+    "s3": "Servicio de Marketing"
+  }
+}
