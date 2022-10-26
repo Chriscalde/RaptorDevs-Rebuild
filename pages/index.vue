@@ -8,7 +8,7 @@
             <h1 class="text-6xl font-extrabold text-white">{{$t('hero.h1')}}</h1>
             <p class="my-8 text-2xl">{{$t('hero.p')}}</p>
             <div class="text-center">
-            <nuxt-link :to="{ path: localePath('/'),hash:'#services'}"><a id="learn-btn" class="justify-center text-center items-center py-4 px-6 mt-12  text-white text-xl rounded-xl align-middle">{{$t('hero.button')}} <i href="" class="bx bx-chevron-right align-middle text-4xl"></i></a></nuxt-link>
+            <a href="#services" id="learn-btn" class="justify-center text-center items-center py-4 px-6 mt-12  text-white text-xl rounded-xl align-middle"><nuxt-link :to="{ path: localePath('/'),hash:'#services'}"></nuxt-link>{{$t('hero.button')}} <i href="" class="bx bx-chevron-right align-middle text-4xl"></i></a>
             </div>
           </div>
           <div class="right-hero">
@@ -50,9 +50,9 @@
         </div>
       </div>
     </div>
-    <div class="text-center py-4 flex flex-col">
+    <div class="text-center py-4">
       <h2 class="text-white text-2xl my-2">{{$t('services.int')}}</h2>
-      <nuxt-link :to="localePath('/contact')" class="mt-2 mx-auto"><a class="py-1 px-2 rounded border-2 border-gray-800 mt-4 hover:bg-gray-800 text-gray-800 hover:text-white">{{$t('services.contact')}}</a></nuxt-link>
+      <a href="/contact" class="py-1 px-2 rounded border-2 mx-auto border-gray-800 mt-4 hover:bg-gray-800 text-gray-800 hover:text-white"><nuxt-link :to="localePath('/contact')"></nuxt-link>{{$t('services.contact')}}</a>
     </div>
     <footer-top/>
     <Footer></Footer>
@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 

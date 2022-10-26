@@ -21,7 +21,7 @@ export default {
         '@/assets/fonts/roboto.css',
         'boxicons/css/boxicons.min.css'
     ],
-
+    target: 'static',
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [],
 
