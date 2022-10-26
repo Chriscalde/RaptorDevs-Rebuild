@@ -23,14 +23,14 @@
                     <h1 class="text-3xl font-bold text-orange md:mt-4">{{$t('about.who')}}</h1>
                     <p class="text-xl my-4">{{$t('about.info')}}</p>
                 </div>
-                <div class="bg-contact items-end content-end flex-none text-center">
-                    <div class="m-4 grid-cols-2 grid gap-2 bg-gray-700 text-white py-2 rounded-md">
+            </div>
+        </div>
+        <div class="m-6 text-center">
+                    <div class="grid-cols-2 grid gap-2 text-white py-2 rounded-md">
                         <a class="font-bold" href="mailto:contact@raptordevs.com">contact@raptordevs.com</a>
                         <a class="font-bold" href="tel:+13852349700">+1 385 234 97 00</a>
                     </div>
-                </div>
             </div>
-        </div>
         <div>
 
         </div>

@@ -50,6 +50,10 @@
         </div>
       </div>
     </div>
+    <div class="text-center py-4 flex flex-col">
+      <h2 class="text-white text-2xl my-2">{{$t('services.int')}}</h2>
+      <nuxt-link :to="localePath('/contact')" class="mt-2 mx-auto"><a class="py-1 px-2 rounded border-2 border-gray-800 mt-4 hover:bg-gray-800 text-gray-800 hover:text-white">{{$t('services.contact')}}</a></nuxt-link>
+    </div>
     <footer-top/>
     <Footer></Footer>
   </div>
@@ -124,19 +128,22 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3696E", en
 #learn-btn:hover{
   color:#f74c06
 }
+.contact-btn:hover{
+  background: linear-gradient(235deg, #f4762d 0%, #f74c06 100%);;
+}
 .card .content{
-  visibility : hidden;
-  opacity : 0;
   transition : 0.3s ease-in-out;
   position: relative;
 }
+
 .card:hover .content{
   visibility: visible;
   transition-delay: 0.2s;
   opacity: 1;
   margin-bottom: 2rem;
   margin-top: 2rem;
-}
+  transition: 0.3s ease-in-out;
+} 
 
 
 </style>

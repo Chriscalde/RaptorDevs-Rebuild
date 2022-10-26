@@ -2,7 +2,7 @@
   <div class="background-main">
     <Header></Header>
     <div class="md:mx-24 my-12 md:grid md:grid-cols-2 gap-12 justify-center">
-        <div class="flex flex-col gap-8 self-center items-center">
+        <div class="flex flex-col gap-4 self-center items-center">
             <div class="text-white mx-auto text-center">
                 <i class="icon-color bx bx-phone text-4xl rounded-full p-4 bg-gray-200"></i>
                 <h1 class="text-2xl font-bold">{{$t('contact.phone')}}</h1>
