@@ -45,7 +45,7 @@
         <section id="sect-four">
             <div id="services-con" class="p-14 text-center">
                 <h1 class="text-2xl text-white">{{$t('services.int')}}</h1>
-                <button class="text-xl text-white rounded border-2 border-white px-4 mt-4 hover:bg-white hover:text-black ">{{$t('services.contact')}}</button>
+                <a href="/contact" class="text-xl text-white rounded border-2 border-white px-4 mt-4 hover:bg-white hover:text-black "><nuxt-link :to="localePath('/contact')">{{$t('services.contact')}}</nuxt-link></a>
             </div>
         </section>
     </div>
