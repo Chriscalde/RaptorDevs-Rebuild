@@ -1,6 +1,6 @@
 <template>
   <div id="footer" class="w-full py-8 justify-center text-center items-center">
-    <p>&copy; Copyright <a href="https://www.raptordevs.com" class="text-gray-200"><span> Raptor Devs 2022 </span> </a></p>
+    <p>&copy; Copyright <a href="https://www.raptordevs.com" class="text-gray-200"><span> Raptor Devs 2023 </span> </a></p>
   </div>
 </template>
 
