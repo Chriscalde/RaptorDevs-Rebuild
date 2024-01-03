@@ -11,7 +11,7 @@
       <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.social')}}</h1>
         <a href="https://www.facebook.com/Raptordevs" target="_blank">Facebook</a>
-        <a href="https://www.intagram.com/raptordevs/">Instagram</a>
+        <a href="https://www.instagram.com/raptordevs/">Instagram</a>
       </div>
       <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.lang')}}</h1>
