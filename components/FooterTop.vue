@@ -5,8 +5,8 @@
         <h1 class="text-xl font-bold">{{$t('ft.contact')}}</h1>
         <a href="tel:+13852349700"> +1 385 234 97 00</a>
         <a href="mailto:contact@raptordevs.com">contact@raptordevs.com</a>
-        <p>12542 S 1300 W</p>
-        <p>Riverton, Utah</p>
+        <p>6542 W Arcadia View Dr</p>
+        <p>West Jordan, Utah</p>
       </div>
       <div class="flex flex-col">
         <h1 class="text-xl font-bold">{{$t('ft.social')}}</h1>
